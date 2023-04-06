@@ -4,7 +4,7 @@ import { RxMagicWand } from 'react-icons/rx'
 export const LoginLayout = ({children}) => {
   return (
     <div className='h-screen w-full grid '>
-    <div className='place-self-center w-3/5 lg:flex bg-gradient-to-r from-blue-500 to-blue-700  border shadow-lg rounded-md h-5/6 h-auto relative'>
+    <div className='place-self-center w-3/5 lg:flex bg-gradient-to-r from-blue-500 to-blue-700  border shadow-lg rounded-md h-full lg:h-auto relative'>
       <div className='w-full lg:w-1/2 h-full '>
         <div className='grid'>
           <div className='place-self-center'>
@@ -21,7 +21,7 @@ export const LoginLayout = ({children}) => {
             {/* small screens */}
            
             <div className='lg:hidden lg:w-1/2 h-auto absolute bg-white inset-8 z-30 flex justify-center'>
-        <div className='w-4/5  '>
+        <div className='w-11/12  '>
             {children}
             </div>
             </div>
